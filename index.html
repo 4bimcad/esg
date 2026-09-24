@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>INFOSET ESG - Herramientas Excel para gestión ambiental, climática y sectorial</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<meta name="description" content="Herramientas ESG en Excel para empresas de Perú y Latinoamérica. Mide huella de carbono, emisiones GEI, agua, costos, indicadores ESG y planes de reducción para minería, construcción, manufactura, energía, transporte y otros sectores.">
+<meta name="keywords" content="ESG Excel Perú, huella de carbono Excel Perú, cálculo emisiones GEI, Scope 1 Scope 2 Scope 3, gestión ESG Perú, indicadores ESG, huella hídrica, Excel minería, Excel construcción, sostenibilidad empresarial Perú, herramientas ESG Latinoamérica, gestión ambiental Excel">
+<meta name="author" content="INFOSET - INCAJATA S.A.C.">
+<meta name="robots" content="index, follow">
+<meta name="language" content="Spanish">
+<meta name="geo.region" content="PE">
+<meta name="geo.placename" content="Arequipa, Perú">
+<meta property="og:type" content="website">
+<meta property="og:title" content="INFOSET ESG — Herramientas ESG en Excel para empresas">
+<meta property="og:description" content="Mide emisiones, agua, costos e indicadores ESG con herramientas Excel para Perú y Latinoamérica.">
+<meta property="og:locale" content="es_PE">
+<meta property="og:site_name" content="INFOSET.ORG.PE">
+<style>
+:root{--infoset:#0b7a53;--infoset-dark:#18332b;--soft:#ddf3ea}
+body{background:#f7f9f8;color:var(--infoset-dark)}
+.navbar-brand-text{font-size:1.55rem;font-weight:800;letter-spacing:-.04em;color:#18332b;text-decoration:none}
+.navbar{min-height:66px}
+.hero{position:relative;overflow:hidden;color:white;background:#18332b}
+.hero-content{position:relative;z-index:3;padding:34px 0 26px}
+.hero-content-inner{max-width:950px}
+.hero h1{line-height:1.08}
+.hero-carousel{position:relative;z-index:2;height:210px;overflow:hidden;border-top:1px solid rgba(255,255,255,.08);border-bottom:1px solid rgba(255,255,255,.08)}
+.hero-carousel .carousel-item{height:210px;background:#0d2921}
+.hero-carousel .carousel-item img{width:100%;height:100%;object-fit:cover;object-position:center}
+.hero-carousel .carousel-item::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(8,35,27,.30),rgba(8,35,27,.08) 55%,rgba(8,35,27,.25))}
+.hero .carousel-indicators{z-index:4;bottom:8px}
+.hero .carousel-control-prev,.hero .carousel-control-next{z-index:4;width:8%}
+.hero-caption-note{font-size:.82rem;color:rgba(255,255,255,.72);padding:18px 0 34px}
+.card{border:0;box-shadow:0 8px 28px rgba(0,0,0,.07)}
+.badge-soft{background:var(--soft);color:var(--infoset)}
+.section-title{font-weight:800}.iconbox{width:48px;height:48px;border-radius:14px;background:var(--soft);color:var(--infoset);display:flex;align-items:center;justify-content:center;font-weight:800}
+small,.small{color:#66736e}.table>:not(caption)>*>*{padding:.8rem}
+.price{font-family:Inter,system-ui,sans-serif;font-size:2rem;font-weight:500;color:var(--infoset);line-height:1;letter-spacing:-.03em}
+.price-note{font-size:.8rem;color:#7b8581}
+.product-card{position:relative}.product-card .product-price{min-height:76px;display:flex;align-items:center}.product-card .btn{width:100%}
+.footer{color:#fff;background:#17231f}.footer a{color:#fff;text-decoration:none}.footer a:hover{opacity:.8}.footer .footer-links ul{list-style:none;padding:0;margin:0}.footer .footer-links li{margin-bottom:10px}.footer .social-links a{font-size:1.25rem;margin-right:14px}
+@media (max-width: 767px){
+  .hero-content{padding:28px 0 22px}
+  .hero h1{font-size:2rem}
+  .hero .lead{font-size:1rem}
+  .hero-carousel,.hero-carousel .carousel-item{height:180px}
+  .hero-caption-note{padding:16px 0 30px}
+}
+</style>
+
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg bg-white border-bottom sticky-top">
+  <div class="container">
+    <a class="navbar-brand-text" href="index.html">INFOSET ESG</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Abrir navegación">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mainNav">
+      <div class="navbar-nav ms-auto">
+        <a class="nav-link" href="#productos">Productos</a>
+        <a class="nav-link" href="#sectores">Sectores</a>
+        <a class="nav-link" href="#metodologia">Metodología</a>
+        <a class="nav-link" href="#normativa">Normativa</a>
+        <a class="nav-link" href="#footer">Contacto</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="container hero-content">
+    <div class="hero-content-inner">
+      <span class="badge bg-light text-success mb-3">Herramientas profesionales en Excel</span>
+      <h1 class="display-5 fw-bold">Mida emisiones, agua, costos y desempeño ESG con herramientas profesionales en Excel.</h1>
+      <p class="lead mt-3 mb-4">Tres herramientas Excel para convertir datos operativos en indicadores, inventarios de GEI, planes de reducción y dashboards ejecutivos en distintos sectores.</p>
+      <div>
+        <a href="#productos" class="btn btn-light btn-lg me-2">Ver herramientas</a>
+        <a href="#normativa" class="btn btn-outline-light btn-lg">Ver marco peruano</a>
+      </div>
+    </div>
+  </div>
+
+  <div id="heroCarousel" class="carousel slide carousel-fade hero-carousel" data-bs-ride="carousel" data-bs-interval="5000">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Captura 1"></button>
+      <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" aria-label="Captura 2"></button>
+      <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2" aria-label="Captura 3"></button>
+      <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="3" aria-label="Captura 4"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active"><img src="assets/img/esg/01.png" alt="Captura de INFOSET ESG Carbon en Excel"></div>
+      <div class="carousel-item"><img src="assets/img/esg/02.png" alt="Captura de INFOSET ESG Pro en Excel"></div>
+      <div class="carousel-item"><img src="assets/img/esg/03.png" alt="Captura de indicadores ESG en Excel"></div>
+      <div class="carousel-item"><img src="assets/img/esg/04.png" alt="Captura de INFOSET ESG Mining en Excel"></div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span><span class="visually-hidden">Siguiente</span>
+    </button>
+  </div>
+
+  <div class="container">
+    <div class="hero-caption-note"><i class="bi bi-images me-1"></i> Presentación visual mediante capturas reales de las herramientas Excel.</div>
+  </div>
+</header>
+
+<section id="productos" class="py-5">
+  <div class="container">
+    <h2 class="section-title mb-2">Tres herramientas, tres niveles de uso</h2>
+    <p class="text-muted mb-4">Cada archivo contiene campos de entrada claramente identificados, instrucciones, metodología, factores, fórmulas, controles y hojas de reporte. Las versiones generales pueden utilizarse en minería, construcción, manufactura, energía, transporte y logística, agroindustria, comercio, servicios y oficinas.</p>
+    <div class="row g-4">
+      <div class="col-lg-4">
+        <div class="card product-card h-100 p-4">
+          <div class="iconbox mb-3">01</div>
+          <h3>ESG Carbon</h3>
+          <p>Para organizaciones de cualquier sector que necesitan medir su Huella de Carbono y controlar Scope 1, 2 y 3.</p>
+          <ul>
+            <li>Datos de actividad</li><li>Factores de emisión</li><li>tCO₂e y KPI</li><li>Dashboard</li><li>Plan de reducción + ROI</li>
+          </ul>
+          <div class="product-price mt-auto">
+            <span class="price">S/ 99</span>
+          </div>
+          <div class="price-note mb-3">Pago único · Excel descargable</div>
+          <a class="btn btn-success" href="https://wa.me/51913090906?text=Hola%2C%20quiero%20comprar%20INFOSET%20ESG%20Carbon%20por%20S%2F%2099." target="_blank" rel="noopener"><i class="bi bi-whatsapp me-1"></i>Comprar</a>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="card product-card h-100 p-4">
+          <div class="iconbox mb-3">02</div>
+          <h3>ESG Pro</h3>
+          <p>Amplía Carbon para cualquier sector con gestión hídrica, KPI ESG, materialidad interna, ROSI simplificado y matriz normativa.</p>
+          <ul>
+            <li>Huella / indicadores de agua</li><li>KPI ambiental, social y gobernanza</li><li>Materialidad interna</li><li>ROI / ROSI</li><li>Checklist normativo</li>
+          </ul>
+          <div class="product-price mt-auto">
+            <span class="price">S/ 149</span>
+          </div>
+          <div class="price-note mb-3">Pago único · Excel descargable</div>
+          <a class="btn btn-success" href="https://wa.me/51913090906?text=Hola%2C%20quiero%20comprar%20INFOSET%20ESG%20Pro%20por%20S%2F%20149." target="_blank" rel="noopener"><i class="bi bi-whatsapp me-1"></i>Comprar</a>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="card product-card h-100 p-4">
+          <div class="iconbox mb-3">03</div>
+          <h3>ESG Mining</h3>
+          <p>Versión especializada para minería: toneladas producidas, combustible, energía, agua, transporte y gestión normativa sectorial.</p>
+          <ul>
+            <li>tCO₂e/t mineral</li><li>L diésel/t</li><li>kWh/t</li><li>m³/t</li><li>MINEM + MINAM + ANA + SST</li>
+          </ul>
+          <div class="product-price mt-auto">
+            <span class="price">S/ 199</span>
+          </div>
+          <div class="price-note mb-3">Pago único · Excel descargable</div>
+          <a class="btn btn-success" href="https://wa.me/51913090906?text=Hola%2C%20quiero%20comprar%20INFOSET%20ESG%20Mining%20por%20S%2F%20199." target="_blank" rel="noopener"><i class="bi bi-whatsapp me-1"></i>Comprar</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="sectores" class="py-5">
+  <div class="container">
+    <h2 class="section-title mb-3">Aplicable a distintos sectores</h2>
+    <p class="text-muted mb-4">El modelo general no está limitado a minería. El usuario selecciona su sector y registra las fuentes, consumos, instalaciones y evidencias que correspondan a su operación.</p>
+    <div class="row g-3">
+      <div class="col-6 col-md-4 col-lg-3"><div class="card p-3 h-100"><strong><i class="bi bi-gem me-2"></i>Minería</strong><small>Operaciones, plantas y campamentos</small></div></div>
+      <div class="col-6 col-md-4 col-lg-3"><div class="card p-3 h-100"><strong><i class="bi bi-building me-2"></i>Construcción</strong><small>Obras, maquinaria y proyectos</small></div></div>
+      <div class="col-6 col-md-4 col-lg-3"><div class="card p-3 h-100"><strong><i class="bi bi-gear me-2"></i>Manufactura</strong><small>Plantas, procesos y energía</small></div></div>
+      <div class="col-6 col-md-4 col-lg-3"><div class="card p-3 h-100"><strong><i class="bi bi-lightning-charge me-2"></i>Energía</strong><small>Generación, consumo y activos</small></div></div>
+      <div class="col-6 col-md-4 col-lg-3"><div class="card p-3 h-100"><strong><i class="bi bi-truck me-2"></i>Transporte</strong><small>Flotas, combustible y logística</small></div></div>
+      <div class="col-6 col-md-4 col-lg-3"><div class="card p-3 h-100"><strong><i class="bi bi-tree me-2"></i>Agroindustria</strong><small>Producción, riego y cadena de suministro</small></div></div>
+      <div class="col-6 col-md-4 col-lg-3"><div class="card p-3 h-100"><strong><i class="bi bi-shop me-2"></i>Comercio</strong><small>Locales, almacenes y distribución</small></div></div>
+      <div class="col-6 col-md-4 col-lg-3"><div class="card p-3 h-100"><strong><i class="bi bi-briefcase me-2"></i>Servicios y oficinas</strong><small>Electricidad, viajes, residuos y compras</small></div></div>
+    </div>
+  </div>
+</section>
+
+<section id="metodologia" class="py-5 bg-white">
+  <div class="container">
+    <h2 class="section-title mb-4">¿Qué problema resuelven?</h2>
+    <div class="row g-4">
+      <div class="col-md-6"><div class="card p-4 h-100"><h5>De datos dispersos → inventario</h5><p>Facturas, medidores, kardex, producción, agua y registros se organizan en tablas estructuradas. Cada dato puede conservar evidencia y responsable.</p></div></div>
+      <div class="col-md-6"><div class="card p-4 h-100"><h5>De consumo → impacto + costo</h5><p>El modelo relaciona cantidad, unidad, factor, emisiones y costo. Esto permite ver tCO₂e, m³ de agua, S/ y ratios de intensidad.</p></div></div>
+      <div class="col-md-6"><div class="card p-4 h-100"><h5>De medición → reducción</h5><p>Las iniciativas se registran con inversión, ahorro, reducción estimada y payback. El ROSI simplificado permite documentar beneficios monetizados.</p></div></div>
+      <div class="col-md-6"><div class="card p-4 h-100"><h5>De normativa → gestión documental</h5><p>Las matrices incorporan controles internos y evidencias vinculadas a las principales normas peruanas aplicables según el alcance del usuario.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="py-5">
+  <div class="container">
+    <h2 class="section-title mb-4">Metodologías incluidas</h2>
+    <div class="table-responsive"><table class="table align-middle bg-white">
+      <thead><tr><th>Metodología / marco</th><th>Uso en las herramientas</th><th>Tipo</th></tr></thead>
+      <tbody>
+        <tr><td>GHG Protocol Corporate</td><td>Organización de Scope 1, 2 y 3 y categorías de fuentes</td><td><span class="badge badge-soft">Metodología internacional</span></td></tr>
+        <tr><td>NTP ISO 14064-1:2020</td><td>Estructura del inventario organizacional de GEI</td><td><span class="badge badge-soft">Referencia técnica</span></td></tr>
+        <tr><td>Huella de Carbono Perú</td><td>Compatibilidad conceptual con el esquema oficial de MINAM; el archivo no reemplaza la plataforma oficial</td><td><span class="badge badge-soft">Marco peruano</span></td></tr>
+        <tr><td>ISO 14046:2014</td><td>Principios para evaluación de huella de agua; el Pro/Mining ofrece inventario e indicadores, no una ACV hídrica completa</td><td><span class="badge badge-soft">Referencia técnica</span></td></tr>
+        <tr><td>ROSI / ROI simplificado</td><td>Evaluación interna de inversiones y beneficios monetizados</td><td><span class="badge badge-soft">Gestión financiera</span></td></tr>
+      </tbody>
+    </table></div>
+  </div>
+</section>
+
+<section id="normativa" class="py-5 bg-white">
+  <div class="container">
+    <h2 class="section-title mb-3">Marco normativo peruano</h2>
+    <p class="text-muted">Las hojas NORMATIVA_PERU y MATRIZ_CUMPLIMIENTO detallan la aplicación y las fuentes oficiales. La inclusión de una norma no significa que toda obligación sea aplicable a todas las empresas.</p>
+    <div class="row g-3">
+      <div class="col-md-4"><div class="card p-3 h-100"><b>MINAM</b><p class="mb-0 small">Ley 28611 · Ley 30754 · D.S. 013-2019-MINAM · R.M. 185-2021-MINAM · NTP ISO 14064-1:2020 como referencia técnica.</p></div></div>
+      <div class="col-md-4"><div class="card p-3 h-100"><b>ANA</b><p class="mb-0 small">Ley 29338 · D.S. 001-2010-AG · R.J. 151-2020-ANA · ISO 14046 como referencia para huella de agua.</p></div></div>
+      <div class="col-md-4"><div class="card p-3 h-100"><b>MINEM / SST</b><p class="mb-0 small">D.S. 040-2014-EM para gestión ambiental minera; D.S. 024-2016-EM y modificatorias 023-2017-EM y 034-2023-EM para SST minera; Ley 29783 y D.S. 005-2012-TR para SST general.</p></div></div>
+    </div>
+    <div class="alert alert-warning mt-4"><b>Importante:</b> estas plantillas son herramientas de medición y gestión. No sustituyen permisos, instrumentos de gestión ambiental, registros legales, procedimientos oficiales, auditorías, verificaciones, certificaciones ni asesoría especializada. Para un reconocimiento oficial de Huella de Carbono Perú debe utilizarse el procedimiento de MINAM.</div>
+  </div>
+</section>
+
+<section class="py-5">
+  <div class="container">
+    <h2 class="section-title mb-4">Fuentes oficiales</h2>
+    <div class="list-group">
+      <a class="list-group-item list-group-item-action" href="https://www.gob.pe/institucion/minam/normas-legales/2203057-185-2021-minam" target="_blank" rel="noopener">MINAM — R.M. 185-2021-MINAM / Guía HC Perú</a>
+      <a class="list-group-item list-group-item-action" href="https://www.gob.pe/institucion/minam/campa%C3%B1as/75782-premio-huella-de-carbono-peru-a-la-sostenibilidad-ambiental" target="_blank" rel="noopener">MINAM — Huella de Carbono Perú</a>
+      <a class="list-group-item list-group-item-action" href="https://www.gob.pe/institucion/ana/normas-legales/1305244-rj-151-2020-ana" target="_blank" rel="noopener">ANA — R.J. 151-2020-ANA</a>
+      <a class="list-group-item list-group-item-action" href="https://www.gob.pe/institucion/minem/informes-publicaciones/6714553" target="_blank" rel="noopener">MINEM — Reglamento ambiental minero, edición 2026</a>
+      <a class="list-group-item list-group-item-action" href="https://www.gob.pe/institucion/minem/informes-publicaciones/5631689-reglamento-de-seguridad-y-salud-ocupacional-en-mineria-ed-2024" target="_blank" rel="noopener">MINEM — RSSO Minería, edición 2026</a>
+      <a class="list-group-item list-group-item-action" href="https://www.gob.pe/institucion/presidencia/normas-legales/462577-005-2012-tr" target="_blank" rel="noopener">MTPE — D.S. 005-2012-TR</a>
+    </div>
+  </div>
+</section>
+
+<section id="contacto" class="py-5 bg-white">
+  <div class="container">
+    <div class="text-center mb-4">
+      <span class="badge badge-soft mb-2">Contacto</span>
+      <h2 class="section-title mb-2">¿Tienes consultas sobre las herramientas?</h2>
+      <p class="text-muted mb-0">Contáctanos para comprar una herramienta o consultar cuál se adapta mejor a tu empresa.</p>
+    </div>
+    <div class="row g-3 justify-content-center">
+      <div class="col-md-4"><div class="card p-4 h-100 text-center"><i class="bi bi-geo-alt fs-3 mb-2" style="color:var(--infoset)"></i><strong>Ubicación</strong><div class="text-muted mt-1">Arequipa, Perú</div></div></div>
+      <div class="col-md-4"><div class="card p-4 h-100 text-center"><i class="bi bi-whatsapp fs-3 mb-2" style="color:var(--infoset)"></i><strong>Celular, Whatsapp</strong><div class="mt-1"><a href="https://wa.me/51913090906" target="_blank" rel="noopener" style="color:var(--infoset);text-decoration:none;">(+51) 913-090906</a></div></div></div>
+      <div class="col-md-4"><div class="card p-4 h-100 text-center"><i class="bi bi-envelope fs-3 mb-2" style="color:var(--infoset)"></i><strong>Email</strong><div class="mt-1"><a href="mailto:infoset.oficina@gmail.com" style="color:var(--infoset);text-decoration:none;">infoset.oficina@gmail.com</a></div></div></div>
+    </div>
+  </div>
+</section>
+
+<footer id="footer" class="footer">
+  <div class="container text-center py-4">
+    <p class="mb-2">© Copyright 2024-2026 | <strong>INFOSET.ORG.PE</strong> | Todos los derechos reservados</p>
+    <p class="mb-2 small" style="color:rgba(255,255,255,.72);">INFOSET es una marca de INCAJATA S.A.C. | RUC 20614558491</p>
+    <p class="mb-0"><strong>Desarrollado por INFOSET</strong></p>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
